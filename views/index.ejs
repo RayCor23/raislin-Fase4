@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('header') -%>
+<head>
+  <link rel="icon" type="image/x-icon" href="img/Ray2.jpg" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Calzado</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+  integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+<body>
+  <header>
+    <h1>Calzado</h1>
+  </header>
+  <nav>
+    <ul>
+      
+      <li><a href="#">contacto</a></li>
+      <a href='/loginUsers' id='botonProductos'>Clientes</a>
+      <li><a href="/login" class="form_contact" id='botonProductos'>Admin</a></li>
+    </ul>
+  </nav>
+  <legend>Tenemos zapatos de todo tipo, marca y tamaño. A los mejores precios.</legend>
+  <section class="products">
+    <div class="product">
+      <img src="/img/3.jpg" alt="Zapato 1">
+      <h2>Zapato Caballero</h2>
+      <p>Marca: Casuality</p>
+      <p>Zapato para Caballero de Vestir-Black</p>
+      <p>Precio: $30.00</p>
+    </div>
+    <div class="product">
+      <img src="/img/2.jpg" alt="Zapato 2">
+      <h2>Zapato Dama</h2>
+      <p>Marca: Jordan</p>
+      <p>Zapato para Dama Jordan-Pink</p>
+      <p>Precio: $25.00</p>
+    </div>
+    <div class="product">
+      <img src="/img/1.jpg" alt="Zapato 3">
+      <h2>Zapato De Niño</h2>
+      <p>Marca: Tiburonsin</p>
+      <p>Zapato para niño con diseño de baby Shark</p>
+      
+      <p>Precio: $30.00</p>
+    </div>
+    
+  </section>
+
+  <%- include('footer') -%>
+</body>
+</html>

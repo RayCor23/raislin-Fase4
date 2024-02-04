@@ -25,7 +25,7 @@
     "start": "nodemon controllers.js"
   },
   "keywords": [],
-  "author": "luis-Yonacet",
+  "author": "raislin",
   "license": "ISC",
   "description": ""
 }

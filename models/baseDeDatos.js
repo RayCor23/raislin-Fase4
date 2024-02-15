@@ -602,7 +602,7 @@ db.run(sql,[nombre_de_usuario,apellido,cedula,telefono,cliente_id,producto_id,ca
     from: 'programacion950@gmail.com', // Reemplaza con tu dirección de correo electrónico
     to: destinatario, // Reemplaza con la dirección de correo del cliente
     subject:'Mensaje de confirmación', // Reemplaza con el asunto del correo electrónico
-    text: 'Compra realizada de manera exitosa desde la pagina limpieza Absoluta' // Reemplaza con el contenido del correo electrónico en texto sin formato
+    text: 'Compra realizada de manera exitosa desde RayCor.c.a' // Reemplaza con el contenido del correo electrónico en texto sin formato
   };
 
   // Envía el correo electrónico
